@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="box2.Right" size="0.078000 0.078000"/>
+        <ImageTarget name="box2.Front" size="0.078000 0.078000"/>
+        <ImageTarget name="box2.Top" size="0.078000 0.078000"/>
+        <ImageTarget name="box2.Bottom" size="0.078000 0.078000"/>
+        <ImageTarget name="box2.Left" size="0.078000 0.077647"/>
+        <ImageTarget name="box2.Back" size="0.078000 0.078000"/>
+        <ImageTarget name="box1.Right" size="7.800000 7.800000"/>
+        <ImageTarget name="box1.Front" size="7.800000 7.800000"/>
+        <ImageTarget name="box1.Top" size="7.800000 7.800000"/>
+        <ImageTarget name="box1.Bottom" size="7.800000 7.800000"/>
+        <ImageTarget name="box1.Left" size="7.800000 7.800000"/>
+        <ImageTarget name="box1.Back" size="7.800000 7.800000"/>
+        <MultiTarget name="box2">
+            <Part name="box2.Left" translation="-0.039000000804662704 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="box2.Right" translation="0.039000000804662704 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="box2.Front" translation="0 0 0.039000000804662704" rotation="AD: 1 0 0 0"/>
+            <Part name="box2.Back" translation="0 0 -0.039000000804662704" rotation="AD: 0 1 0 180"/>
+            <Part name="box2.Top" translation="0 0.039000000804662704 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="box2.Bottom" translation="0 -0.039000000804662704 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="box1">
+            <Part name="box1.Left" translation="-3.9000000953674316 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="box1.Right" translation="3.9000000953674316 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="box1.Front" translation="0 0 3.9000000953674316" rotation="AD: 1 0 0 0"/>
+            <Part name="box1.Back" translation="0 0 -3.9000000953674316" rotation="AD: 0 1 0 180"/>
+            <Part name="box1.Top" translation="0 3.9000000953674316 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="box1.Bottom" translation="0 -3.9000000953674316 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
